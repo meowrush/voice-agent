@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Voice Call</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <header class="top"><span class="mark" aria-hidden="true">▮▮▮</span><strong>Voice Call</strong><span id="mode" class="mode" hidden></span></header>
+    <div class="layout">
+      <section class="call" aria-labelledby="call-title">
+        <h1 id="call-title">Talk to the assistant</h1>
+        <p class="intro">Start a call with the AI assistant. You can speak again to interrupt a reply.</p>
+        <div class="visual" aria-hidden="true"><div class="wave"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="status" id="status" role="status" data-state="idle">Ready to call</div>
+        <button id="toggle" type="button">Start Call</button>
+        <p id="error" role="alert" hidden></p>
+        <a id="session" hidden target="_blank" rel="noopener">View session data ↗</a>
+      </section>
+      <section class="captions" aria-labelledby="captions-title">
+        <header><h2 id="captions-title">Live transcript</h2></header>
+        <div class="messages" id="messages" role="log" aria-label="Conversation">
+          <p class="empty" id="empty">Your conversation will appear here.</p>
+        </div>
+        <p id="partial" class="partial" hidden></p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
+
+

@@ -1,0 +1,215 @@
+{
+  "config": {
+    "mode": "mock",
+    "stt": "fixture",
+    "llm": "script",
+    "tts": "fixture",
+    "prompt_version": "1",
+    "vad_silence_ms": 600,
+    "vad_threshold": 0.018,
+    "idle_ms": 120000,
+    "max_call_ms": 900000
+  },
+  "measured": [
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "7398b992-68f4-4c1d-91b7-2704a513c36a",
+      "vad_end_ms": 604,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 1,
+      "tts_first_audio_ms": 2,
+      "total_ms": 607,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "795e38b8-ec7d-4d28-bcd8-de0d2d158d28",
+      "vad_end_ms": 590,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 591,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "ad38bcaa-6bff-438d-9926-f31dc7428bc7",
+      "vad_end_ms": 596,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 597,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "cd4f238f-b393-470e-9c15-63e4ec6081d2",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 1,
+      "tts_first_audio_ms": 1,
+      "total_ms": 602,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "f9110a95-5d4f-4151-9724-8c39d0b29f74",
+      "vad_end_ms": 604,
+      "stt_final_ms": 1,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 606,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "234a228d-a152-475e-b953-8295fde03382",
+      "turn_id": "aa08575a-f80b-42de-a085-ad69963b12c6",
+      "vad_end_ms": 588,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 2,
+      "total_ms": 590,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "224e2d2c-4d68-4a0d-a13f-c37b83482e55",
+      "vad_end_ms": 605,
+      "stt_final_ms": 1,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 607,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "e8beed38-a695-4572-8430-e5a69f313c83",
+      "vad_end_ms": 602,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 603,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "3c2f8d37-19cf-4dfa-aaba-4c6511f5dbe9",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 601,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "d8838c80-91ae-46b8-988c-52a861359dc5",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 2,
+      "total_ms": 602,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "fd7e22ef-184d-418a-86e1-cc53288ca63f",
+      "vad_end_ms": 603,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 1,
+      "tts_first_audio_ms": 1,
+      "total_ms": 605,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "baaa9152-61de-4f84-a0e1-b867af9ff47f",
+      "turn_id": "eb2c240d-e5d8-495c-9254-0941b72bf8a9",
+      "vad_end_ms": 590,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 591,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "0e20ae3d-7948-42fc-b580-12511c803b56",
+      "vad_end_ms": 601,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 602,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "d48e4ac0-080c-4baa-b998-6e57c3a95608",
+      "vad_end_ms": 602,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 603,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "6d911673-419f-4997-bf81-a12ab4a3055c",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 2,
+      "total_ms": 602,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "e3b66e4d-a64a-4db0-b470-d74b948382f4",
+      "vad_end_ms": 597,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 598,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "0bf228b9-7ee4-4a89-b24a-8a955e0499a9",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 2,
+      "total_ms": 602,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "5e6d4e68-4b4c-4139-bd7c-f7789cb03d9c",
+      "turn_id": "63a61c11-3374-413e-a605-366847cc550c",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 601,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "c6acd3b3-0b79-4677-8904-7521cf54410b",
+      "turn_id": "73f13e79-40eb-4767-847a-80c75fb3a27a",
+      "vad_end_ms": 583,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 584,
+      "playback_start_ms": null
+    },
+    {
+      "session_id": "c6acd3b3-0b79-4677-8904-7521cf54410b",
+      "turn_id": "5fb9b0d8-7aee-4f64-8913-baec43f9c506",
+      "vad_end_ms": 600,
+      "stt_final_ms": 0,
+      "llm_first_token_ms": 0,
+      "tts_first_audio_ms": 1,
+      "total_ms": 601,
+      "playback_start_ms": null
+    }
+  ]
+}
